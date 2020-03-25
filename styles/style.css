@@ -10,7 +10,6 @@
 }
 
 /* первая секция header */
-
 .header {
     background-color: #F2F2F2;
     display: flex;
@@ -417,7 +416,6 @@
     text-decoration: none;
     color: white;
 }
-
 
 /* пример */
 .theme_dark {
