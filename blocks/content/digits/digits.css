@@ -1,9 +1,4 @@
-@import url(../section-title/section-title.css);
-@import url(../section-subtitle/section-subtitle.css);
-@import url(../table/table.css);
-
 /* Третья секция digits */
-
 .digits {
     display: flex;
     flex-direction: column;

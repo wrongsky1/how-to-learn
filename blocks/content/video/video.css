@@ -1,10 +1,4 @@
-@import url(../section-title/section-title.css);
-@import url(../section-subtitle/section-subtitle.css);
-@import url(./__iframes/video__iframes.css);
-@import url(./__iframe/video__iframe.css);
-
 /* спринт 2 секция  video */
-
 .video {
     margin: 0 auto;
     display: flex;

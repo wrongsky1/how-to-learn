@@ -2,7 +2,6 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="html, css">
@@ -69,10 +68,8 @@
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe class="video__iframe" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/5MgBikgcWnY"
-frameborder="0" allowfullscreen>Здравствуйте, ваш браузер не может показать классную штуку, потому что не поддерживает iframe.</iframe>
-          <iframe class="video__iframe" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/arj7oStGLkU"
-frameborder="0" allowfullscreen>Здравствуйте, ваш браузер не может показать классную штуку, потому что не поддерживает iframe.</iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen>Здравствуйте, ваш браузер не может показать классную штуку, потому что не поддерживает iframe.</iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen>Здравствуйте, ваш браузер не может показать классную штуку, потому что не поддерживает iframe.</iframe>
         </div>
       </section>
 
@@ -137,7 +134,7 @@ frameborder="0" allowfullscreen>Здравствуйте, ваш браузер 
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир - школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов стужентов по всему миру. Книгу "Весь мир - школа" нужно прочитать всем, кто занимается образованием - так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов стужентов по всему миру. Книгу "Весь мир - школа" нужно прочитать всем, кто занимается образованием - так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
@@ -193,17 +190,17 @@ frameborder="0" allowfullscreen>Здравствуйте, ваш браузер 
           </div>
           <img class="kaufman__triangle" src="./images/triangle.svg" alt="triangle">
         </div>
-       </section>       
+      </section>       
        
-       <section class="resources">
+      <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <a href="#" lang="ru"><img class="resources__logo" src="./images/images_sprint-2/logo/arzamas.svg" alt="лого Арзамас"></a>
-          <a href="#" lang="ru"><img class="resources__logo" src="./images/images_sprint-2/logo/n1.svg" alt="лого Н+1"></a>
-          <a href="#" lang="ru"><img class="resources__logo" src="./images/images_sprint-2/logo/strelka.svg" alt="лого Стрелка"></a>
-          <a href="#" lang="ru"><img class="resources__logo" src="./images/images_sprint-2/logo/polka.svg" alt="лого Полка"></a>
-        </div>
+        <ul class="resources__logo-zone">
+          <li><a href="#" lang="ru"><img class="resources__logo" src="./images/images_sprint-2/logo/arzamas.svg" alt="лого Арзамас"></a></li>
+          <li><a href="#" lang="ru"><img class="resources__logo" src="./images/images_sprint-2/logo/n1.svg" alt="лого Н+1"></a></li>
+          <li><a href="#" lang="ru"><img class="resources__logo" src="./images/images_sprint-2/logo/strelka.svg" alt="лого Стрелка"></a></li>
+          <li><a href="#" lang="ru"><img class="resources__logo" src="./images/images_sprint-2/logo/polka.svg" alt="лого Полка"></a></li>
+        </ul>
       </section>
 
     </main>

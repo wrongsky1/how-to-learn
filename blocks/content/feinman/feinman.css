@@ -1,10 +1,4 @@
-@import url(./__title/feinman__title.css);
-@import url(./__subtitle/feinman__subtitle.css);
-@import url(./__link/feinman__link.css);
-@import url(./__image/feinman__image.css);
-
 /* Четвертая секция Фейнмана */
-
 .feinman {
     height: 790px;
     position: relative;
