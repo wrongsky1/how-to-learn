@@ -1,0 +1,14 @@
+@import url(../section-title/section-title.css);
+@import url(../section-subtitle/section-subtitle.css);
+@import url(../cards/cards.css);
+
+/* спринт 2 секция  technics */
+
+.technics {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}

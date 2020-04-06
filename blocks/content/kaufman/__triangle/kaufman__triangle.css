@@ -1,0 +1,20 @@
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.kaufman__triangle {
+    height: 877px;
+    width: 877px;
+    position: absolute;
+    top: 0;
+    right: -210px;
+    z-index: 1;
+    background-size: contain;
+    animation: rotation 20s backwards linear infinite;
+}

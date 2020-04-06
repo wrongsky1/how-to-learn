@@ -1,0 +1,14 @@
+@import url(../section-title/section-title.css);
+@import url(../section-subtitle/section-subtitle.css);
+@import url(./__logo-zone/resources__logo-zone.css);
+@import url(./__logo/resources__logo.css);
+
+
+/* спринт 2 секция resources */
+.resources {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+}

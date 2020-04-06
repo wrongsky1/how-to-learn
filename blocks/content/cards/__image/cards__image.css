@@ -1,0 +1,9 @@
+
+
+.cards__image {
+    height: 160px;
+    width: 160px;
+    margin: 0 40px;
+    border-radius: 50%; /* Радиус скругления */
+    border: none; /* Параметры рамки */
+    }
