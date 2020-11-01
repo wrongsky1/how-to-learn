@@ -16,7 +16,8 @@
 * Адаптировать сайт для просмотра на разных устройствах
 
 ## Ссылка на сайт:
-...
+
+https://wrongsky1.github.io/how-to-learn/index.html
 
 ---
 
@@ -38,4 +39,4 @@ The single page website is created using some advanced features of HTML and CSS.
 * To optimize website for different screen sizes
 
 ## URL:
-...
+https://wrongsky1.github.io/how-to-learn/index.html
